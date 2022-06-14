@@ -1,0 +1,162 @@
+.main-mobile {
+  display: flex;
+  position: absolute;
+  width: 395px;
+  height: 6968px;
+  left: 5px;
+  top: 0;
+  border: 1px solid rgb(137, 141, 141);
+  background: #fff;
+}
+
+.header {
+  position: absolute;
+  width: 395px;
+  height: 92px;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
+}
+
+.top_section {
+  display: flex;
+  position: absolute;
+  width: 395px;
+  height: 590px;
+  background: #1c1a19;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  top: 24px;
+  left: 25px;
+  font-family: "Roboto,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+#sideNav {
+  width: 100px;
+  height: 35vh;
+  display: flex;
+  position: absolute;
+  top: -250px;
+  left: 295px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #3c3a39);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 30px 10px;
+}
+
+nav ul li a {
+  position: relative;
+  left: -35px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  color: #fff;
+}
+
+#menuBtn {
+  position: absolute;
+  left: 85.67%;
+  top: 50px;
+  bottom: 50%;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#menuBtn img {
+  width: 25px;
+  height: 15px;
+}
+
+.illustration-header-mobile {
+  position: absolute;
+  left: 62.9%;
+  right: -100.24%;
+  top: 38%;
+  bottom: 0.1%;
+}
+
+.banner_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  left: 0;
+  top: 92px;
+  position: absolute;
+}
+
+.banner_head_one {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  top: 50px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 50px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.banner_head_two {
+  position: absolute;
+  top: 190px;
+  width: 320px;
+  height: 27px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.banner_description {
+  position: absolute;
+  top: 230px;
+  width: 327px;
+  height: 123px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.social_Media {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 0;
+  top: 345px;
+}
