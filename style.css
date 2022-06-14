@@ -3,7 +3,7 @@
   position: absolute;
   width: 395px;
   height: 6968px;
-  left: 5px;
+  left: 0;
   top: 0;
   border: 1px solid rgb(137, 141, 141);
   background: #fff;
@@ -44,15 +44,39 @@
 }
 
 #sideNav {
-  width: 100px;
-  height: 35vh;
+  width: 390px;
+  height: 55vh;
   display: flex;
   position: absolute;
-  top: -250px;
-  left: 295px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), #3c3a39);
+  top: -600px;
+  left: 0;
+  background: #3c3a39;
   transition: 0.3s;
   border-radius: 10px;
+}
+
+#sideNav .line_one {
+  width: 350px;
+  height: 1px;
+  margin-top: -30px;
+  margin-left: -11px;
+  background: #6f6c6b;
+}
+
+#sideNav .line_two {
+  width: 350px;
+  height: 1px;
+  margin-top: -25px;
+  margin-left: -11px;
+  background: #6f6c6b;
+}
+
+#sideNav .line_three {
+  width: 350px;
+  height: 1px;
+  margin-top: -30px;
+  margin-left: -11px;
+  background: #6f6c6b;
 }
 
 ul li {
@@ -62,13 +86,13 @@ ul li {
 
 nav ul li a {
   position: relative;
-  left: -35px;
+  left: 10px;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
   display: flex;
   color: #fff;
 }
@@ -102,17 +126,15 @@ nav ul li a {
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-  gap: 12px;
+  gap: 15px;
   left: 0;
-  top: 92px;
-  position: absolute;
+  top: 85px;
 }
 
 .banner_head_one {
-  position: absolute;
+  display: flex;
   width: 350px;
   height: 90px;
-  top: 50px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -123,23 +145,23 @@ nav ul li a {
 }
 
 .banner_head_two {
-  position: absolute;
-  top: 190px;
+  display: grid;
+  top: -100px;
   width: 320px;
   height: 27px;
+  margin-top: -35px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   color: #fff5e1;
 }
 
 .banner_description {
-  position: absolute;
-  top: 230px;
+  display: inline-flex;
+  margin-top: -15px;
   width: 327px;
   height: 123px;
   font-family: "Poppins", sans-serif;
@@ -158,5 +180,5 @@ nav ul li a {
   align-items: center;
   gap: 2px;
   padding: 0;
-  top: 345px;
+  top: 420px;
 }
